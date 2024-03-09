@@ -1,6 +1,6 @@
 package com.natamus.grindstonesharpertools.events;
 
-import com.natamus.collective.functions.StringFunctions;
+import com.natamus.collective.functions.MessageFunctions;
 import com.natamus.collective.services.Services;
 import com.natamus.grindstonesharpertools.config.ConfigHandler;
 import com.natamus.grindstonesharpertools.util.Util;
@@ -51,22 +51,22 @@ public class GrindEvent {
 					if (ConfigHandler.sendUsesLeftInChat) {
 						int totalUses = ConfigHandler.usesAfterGrinding;
 						if ((double) sharpLeft == (double) totalUses * 0.75) {
-							StringFunctions.sendMessage(player, "Your sharpened tool has 75% of its uses left.", ChatFormatting.BLUE);
+							MessageFunctions.sendMessage(player, "Your sharpened tool has 75% of its uses left.", ChatFormatting.BLUE);
 						}
 						else if ((double) sharpLeft == (double) totalUses * 0.5) {
-							StringFunctions.sendMessage(player, "Your sharpened tool has 50% of its uses left.", ChatFormatting.BLUE);
+							MessageFunctions.sendMessage(player, "Your sharpened tool has 50% of its uses left.", ChatFormatting.BLUE);
 						}
 						else if ((double) sharpLeft == (double) totalUses * 0.25) {
-							StringFunctions.sendMessage(player, "Your sharpened tool has 25% of its uses left.", ChatFormatting.BLUE);
+							MessageFunctions.sendMessage(player, "Your sharpened tool has 25% of its uses left.", ChatFormatting.BLUE);
 						}
 						else if ((double) sharpLeft == (double) totalUses * 0.1) {
-							StringFunctions.sendMessage(player, "Your sharpened tool has 10% of its uses left.", ChatFormatting.BLUE);
+							MessageFunctions.sendMessage(player, "Your sharpened tool has 10% of its uses left.", ChatFormatting.BLUE);
 						}
 					}
 				}
 				else {
 					nbtc.remove("sharper");
-					StringFunctions.sendMessage(player, "Your tool is no longer sharpened.", ChatFormatting.RED);
+					MessageFunctions.sendMessage(player, "Your tool is no longer sharpened.", ChatFormatting.RED);
 				}
 				hand.setTag(nbtc);
 				Util.updateName(hand, sharpLeft);
@@ -92,7 +92,7 @@ public class GrindEvent {
 					nbtc.putInt("sharper", sharpeneduses);
 					itemstack.setTag(nbtc);
 					Util.updateName(itemstack, sharpeneduses);
-					StringFunctions.sendMessage(player, "Your tool has been sharpened with " + sharpeneduses + " uses.", ChatFormatting.DARK_GREEN);
+					MessageFunctions.sendMessage(player, "Your tool has been sharpened with " + sharpeneduses + " uses.", ChatFormatting.DARK_GREEN);
 					return false;
 				}
 			}
