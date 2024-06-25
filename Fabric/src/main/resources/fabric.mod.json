@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "grindstonesharpertools",
-  "version": "3.5",
+  "version": "3.6",
 
   "name": "Grindstone Sharper Tools",
   "description": "The grindstone can sharpen tools, temporarily increasing their damage dealt.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.64"
   },
 
   "custom": {
@@ -46,10 +46,9 @@
 	  " aternosorg",
 	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " Rare Students",
 	  " Shana Gitnick",
+	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }
