@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "grindstonesharpertools",
-  "version": "3.6",
+  "version": "3.7",
 
   "name": "Grindstone Sharper Tools",
   "description": "The grindstone can sharpen tools, temporarily increasing their damage dealt.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.64"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,11 +44,10 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
 	  " Michael W. S.",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
-	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }
