@@ -1,6 +1,7 @@
 package com.natamus.grindstonesharpertools;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.grindstonesharpertools.forge.config.IntegrateForgeConfig;
 import com.natamus.grindstonesharpertools.forge.events.ForgeGrindEvent;
 import com.natamus.grindstonesharpertools.util.Reference;
@@ -15,6 +16,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
