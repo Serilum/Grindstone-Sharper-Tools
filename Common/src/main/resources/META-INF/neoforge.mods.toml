@@ -1,0 +1,44 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Grindstone%20Sharper%20Tools"
+logoFile="icon.png"
+
+[[mods]]
+modId="grindstonesharpertools"
+version="3.7"
+displayName="Grindstone Sharper Tools"
+displayURL="https://serilum.com/mod/grindstone-sharper-tools"
+authors="Rick South"
+description='''The grindstone can sharpen tools, temporarily increasing their damage dealt.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., Nahuel Fernandez, Shana Gitnick, Tyler Behl   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.grindstonesharpertools]]
+    modId="collective"
+    type="required"
+    versionRange="[7.80,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.grindstonesharpertools]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.grindstonesharpertools]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0.31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "grindstonesharpertools.mixins.json"
