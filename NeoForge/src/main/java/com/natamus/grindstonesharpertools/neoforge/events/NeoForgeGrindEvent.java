@@ -3,11 +3,9 @@ package com.natamus.grindstonesharpertools.neoforge.events;
 import com.natamus.grindstonesharpertools.events.GrindEvent;
 import net.minecraft.world.entity.LivingEntity;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.living.LivingIncomingDamageEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 
-@EventBusSubscriber
 public class NeoForgeGrindEvent {
 	@SubscribeEvent
 	public static void onDamage(LivingIncomingDamageEvent e) {
