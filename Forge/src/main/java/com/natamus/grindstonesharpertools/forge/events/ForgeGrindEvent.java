@@ -5,12 +5,10 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgeGrindEvent {
 	@SubscribeEvent
-	public void onDamage(LivingHurtEvent e) {
+	public static void onDamage(LivingHurtEvent e) {
 		LivingEntity livingEntity = e.getEntity();
 
 		float originalDamage = e.getAmount();
@@ -22,7 +20,7 @@ public class ForgeGrindEvent {
 	}
 
 	@SubscribeEvent
-	public void onClick(PlayerInteractEvent.RightClickBlock e) {
+	public static void onClick(PlayerInteractEvent.RightClickBlock e) {
 		GrindEvent.onClick(e.getLevel(), e.getEntity(), e.getHand(), e.getPos(), e.getHitVec());
 	}
 }
