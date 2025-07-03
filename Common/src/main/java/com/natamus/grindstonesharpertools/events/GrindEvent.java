@@ -16,7 +16,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.GrindstoneBlock;
 import net.minecraft.world.phys.BlockHitResult;
 
 @SuppressWarnings("deprecation")
@@ -84,7 +84,7 @@ public class GrindEvent {
 		}
 
 		Block block = world.getBlockState(pos).getBlock();
-		if (block.equals(Blocks.GRINDSTONE)) {
+		if (block instanceof GrindstoneBlock) {
 			if (player.isCrouching()) {
 				ItemStack itemstack = player.getItemInHand(hand);
 				if (Services.TOOLFUNCTIONS.isTool(itemstack) || Services.TOOLFUNCTIONS.isSword(itemstack)) {
