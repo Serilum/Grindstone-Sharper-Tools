@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="grindstonesharpertools"
-version="3.8"
+version="3.9"
 displayName="Grindstone Sharper Tools"
 displayURL="https://serilum.com/mod/grindstone-sharper-tools"
 authors="Rick South"

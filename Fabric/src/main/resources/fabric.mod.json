@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "grindstonesharpertools",
-  "version": "3.8",
+  "version": "3.9",
 
   "name": "Grindstone Sharper Tools",
   "description": "The grindstone can sharpen tools, temporarily increasing their damage dealt.",
