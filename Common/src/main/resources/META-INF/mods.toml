@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="grindstonesharpertools"
-version="3.9"
+version="4.0"
 displayName="Grindstone Sharper Tools"
 displayURL="https://serilum.com/mod/grindstone-sharper-tools"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.grindstonesharpertools]]
     modId="collective"
     mandatory=true
-    versionRange="[8.7,)"
+    versionRange="[8.8,)"
     ordering="NONE"
     side="BOTH"
 
