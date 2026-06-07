@@ -1,5 +1,5 @@
 <h2>Grindstone Sharper Tools</h2>
-<p><a href="https://github.com/Serilum/Grindstone-Sharper-Tools"><img src="https://serilum.com/assets/data/logo/grindstone-sharper-tools.png"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Grindstone-Sharper-Tools"><img src="https://serilum.com/assets/images/logo/grindstone-sharper-tools.png"></a></p><h2>Download</h2>
 <p>You can download Grindstone Sharper Tools on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/grindstone-sharper-tools">https://curseforge.com/minecraft/mc-mods/grindstone-sharper-tools</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/grindstone-sharper-tools">https://modrinth.com/mod/grindstone-sharper-tools</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
