@@ -56,18 +56,18 @@ public class GrindEvent {
 						if (ConfigHandler.sendUsesLeftInChat) {
 							int totalUses = ConfigHandler.usesAfterGrinding;
 							if ((double) sharpLeft == (double) totalUses * 0.75) {
-								MessageFunctions.sendMessage(player, "Your sharpened tool has 75% of its uses left.", ChatFormatting.BLUE);
+								MessageFunctions.sendTranslatableMessage(player, "collective.grindstonesharpertools.message.sharpenedtool75", ChatFormatting.BLUE);
 							} else if ((double) sharpLeft == (double) totalUses * 0.5) {
-								MessageFunctions.sendMessage(player, "Your sharpened tool has 50% of its uses left.", ChatFormatting.BLUE);
+								MessageFunctions.sendTranslatableMessage(player, "collective.grindstonesharpertools.message.sharpenedtool50", ChatFormatting.BLUE);
 							} else if ((double) sharpLeft == (double) totalUses * 0.25) {
-								MessageFunctions.sendMessage(player, "Your sharpened tool has 25% of its uses left.", ChatFormatting.BLUE);
+								MessageFunctions.sendTranslatableMessage(player, "collective.grindstonesharpertools.message.sharpenedtool25", ChatFormatting.BLUE);
 							} else if ((double) sharpLeft == (double) totalUses * 0.1) {
-								MessageFunctions.sendMessage(player, "Your sharpened tool has 10% of its uses left.", ChatFormatting.BLUE);
+								MessageFunctions.sendTranslatableMessage(player, "collective.grindstonesharpertools.message.sharpenedtool10", ChatFormatting.BLUE);
 							}
 						}
 					} else {
 						nbtc.remove("sharper");
-						MessageFunctions.sendMessage(player, "Your tool is no longer sharpened.", ChatFormatting.RED);
+						MessageFunctions.sendTranslatableMessage(player, "collective.grindstonesharpertools.message.toollongersharpened", ChatFormatting.RED);
 					}
 					hand.set(DataComponents.CUSTOM_DATA, CustomData.of(nbtc));
 					Util.updateName(hand, sharpLeft);
@@ -100,7 +100,7 @@ public class GrindEvent {
 					nbtc.putInt("sharper", sharpeneduses);
 					itemstack.set(DataComponents.CUSTOM_DATA, CustomData.of(nbtc));
 					Util.updateName(itemstack, sharpeneduses);
-					MessageFunctions.sendMessage(player, "Your tool has been sharpened with " + sharpeneduses + " uses.", ChatFormatting.DARK_GREEN);
+					MessageFunctions.sendTranslatableMessage(player, "collective.grindstonesharpertools.message.toolsharpeneduses", ChatFormatting.DARK_GREEN, sharpeneduses);
 					return false;
 				}
 			}
