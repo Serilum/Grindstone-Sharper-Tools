@@ -1,6 +1,6 @@
-package com.natamus.grindstonesharpertools.forge.events;
+package com.serilum.grindstonesharpertools.forge.events;
 
-import com.natamus.grindstonesharpertools.events.GrindEvent;
+import com.serilum.grindstonesharpertools.events.GrindEvent;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;

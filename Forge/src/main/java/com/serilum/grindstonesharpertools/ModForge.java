@@ -1,10 +1,10 @@
-package com.natamus.grindstonesharpertools;
+package com.serilum.grindstonesharpertools;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.grindstonesharpertools.forge.config.IntegrateForgeConfig;
-import com.natamus.grindstonesharpertools.forge.events.ForgeGrindEvent;
-import com.natamus.grindstonesharpertools.util.Reference;
+import com.serilum.grindstonesharpertools.forge.config.IntegrateForgeConfig;
+import com.serilum.grindstonesharpertools.forge.events.ForgeGrindEvent;
+import com.serilum.grindstonesharpertools.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeGrindEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeGrindEvent.class);
 	}
 
 	private static void setGlobalConstants() {

@@ -1,6 +1,6 @@
-package com.natamus.grindstonesharpertools;
+package com.serilum.grindstonesharpertools;
 
-import com.natamus.grindstonesharpertools.config.ConfigHandler;
+import com.serilum.grindstonesharpertools.config.ConfigHandler;
 
 public class ModCommon {
 

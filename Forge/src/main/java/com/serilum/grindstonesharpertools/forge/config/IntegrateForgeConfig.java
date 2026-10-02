@@ -1,7 +1,7 @@
-package com.natamus.grindstonesharpertools.forge.config;
+package com.serilum.grindstonesharpertools.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.grindstonesharpertools.util.Reference;
+import com.serilum.grindstonesharpertools.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

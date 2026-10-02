@@ -1,6 +1,6 @@
-package com.natamus.grindstonesharpertools.util;
+package com.serilum.grindstonesharpertools.util;
 
-import com.natamus.grindstonesharpertools.config.ConfigHandler;
+import com.serilum.grindstonesharpertools.config.ConfigHandler;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.ComponentContents;
 import net.minecraft.network.chat.MutableComponent;

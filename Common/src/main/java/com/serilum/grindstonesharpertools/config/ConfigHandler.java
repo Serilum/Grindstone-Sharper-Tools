@@ -1,7 +1,7 @@
-package com.natamus.grindstonesharpertools.config;
+package com.serilum.grindstonesharpertools.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.grindstonesharpertools.util.Reference;
+import com.serilum.grindstonesharpertools.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

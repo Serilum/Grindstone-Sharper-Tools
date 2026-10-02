@@ -1,9 +1,9 @@
-package com.natamus.grindstonesharpertools.events;
+package com.serilum.grindstonesharpertools.events;
 
 import com.natamus.collective.functions.MessageFunctions;
 import com.natamus.collective.services.Services;
-import com.natamus.grindstonesharpertools.config.ConfigHandler;
-import com.natamus.grindstonesharpertools.util.Util;
+import com.serilum.grindstonesharpertools.config.ConfigHandler;
+import com.serilum.grindstonesharpertools.util.Util;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;

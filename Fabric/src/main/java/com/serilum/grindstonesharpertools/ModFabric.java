@@ -1,11 +1,11 @@
-package com.natamus.grindstonesharpertools;
+package com.serilum.grindstonesharpertools;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
-import com.natamus.grindstonesharpertools.events.GrindEvent;
-import com.natamus.grindstonesharpertools.util.Reference;
+import com.serilum.grindstonesharpertools.events.GrindEvent;
+import com.serilum.grindstonesharpertools.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
